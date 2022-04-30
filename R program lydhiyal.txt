@@ -1,0 +1,9 @@
+ library(readxl)
+> lydhiyal <- read_excel("C:/Users/Dell/Desktop/lydhiyal.xlsx")
+> View(lydhiyal)
+> lydhiyal<-read_excel("C:/Users/Dell/Desktop/lydhiyal.xlsx")
+> mean(lydhiyal$max_price)
+[1] 14714.29
+> sd(lydhiyal$min_price)
+[1] 2224.983
+> 
